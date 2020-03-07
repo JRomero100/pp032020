@@ -1,6 +1,6 @@
 ## Estruturas de control
 
-### Estructura de decisión `if`
+### 1. Estructura de decisión `if`
 
 Permite cambiar el flujo de ejecución de un programa o *script* al tomar decisiones con base en lo que se conoce como condición. La estructura generalde un if es la siguiente:
 
@@ -46,41 +46,58 @@ Introduce un número: 0
 El número es cero.
 ```
 
-### While
-Ejecuta una pieza de código, en ciclos, hasta que la condición indicada se deje de cumplir.
-`while_5.py`
+### 2. Estructura de repetición `while`
+
+Ejecuta un fragmento de código en repetidas ocasiones mientras la condición especificada se cumpla. La sintaxis general de un `while` es:
+
+```python
+while condición:
+   ...
 ```
-In [5]: while n<5: 
-   ...:     print("Numero {}".format(n)) 
-   ...:     n = n + 1 
-   ...:                                                                                                                                                                                      
+
+Por ejemplo, queremos imprimir los primeros 5 números naturales.
+
+```python
+In [1]: n = 0
+In [2]: while n < 5: 
+   ...:     print("Número {}".format(n))
+   ...:     n = n + 1
+
 Numero 0
 Numero 1
 Numero 2
 Numero 3
 Numero 4
+```
 
-`for_5.py`
+### 3. Estructura de repetición `for`
+
+Al igual que `while` realiza iteraciones, sin embargo en lugar de recibir una condición utiliza un conjunto de elementos, sobre los cuales iterar. La forma más sencilla de usar for es con la función `range` que genera un conjunto de elementos del 0 al número indicado.
+
+La estructura de un `for` es:
+
+```python
+for i in elementos:
+   ...
 ```
-### For
-Itera sobre cada uno de los elementos que se le indiquen.
-```
-In [7]: for i in range(5): 
-   ...:     print("Numero {}".format(i)) 
-   ...:      
-                                                                                                                                                        
+
+Por ejemplo:
+
+```python
+In [1]: for i in range(5): 
+   ...:     print("Número {}".format(i)) 
+   ...:                                                                                                                                                        
 Numero 0
 Numero 1
 Numero 2
 Numero 3
 Numero 4
-
 ```
-#### Ejemplo: par_non.py
+### Ejemplo: Pares y nones
 De una lista de 10 numeros, imprimir en pantalla par o non, dependiendo de si son divisibles entre 2 o no.
 
 ```python
-In [8]: for i in range(11): 
+In [1]: for i in range(11): 
    ...:     if i % 2 == 0: 
    ...:         print("Par") 
    ...:     else: 
@@ -97,7 +114,6 @@ Par
 Non
 Par
 Non
-
 ```
 
 [Volver](../readme.md)
