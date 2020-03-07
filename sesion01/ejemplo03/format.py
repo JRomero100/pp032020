@@ -1,4 +1,4 @@
-nombre = "Sergio"                                                                                                                                                                   
-print(nombre)
-print("Hola mi nombre es {}".format(nombre)) #'Hola mi nombre es Sergio'
-print("{} * {} = {}".format(4, 4, 4*4))  #4 * 4 = 16
+nombre = input('¿Cuál es tu nombre?: ')
+edad   = input('¿Cuál es tu edad?: ')
+
+print("Hola, {} tu edad es {}".format(nombre,edad))
