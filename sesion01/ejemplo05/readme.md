@@ -2,6 +2,8 @@
 
 ### 1. Estructura de decisión `if`
 
+<img src="https://media3.giphy.com/media/8acGIeFnqLA7S/giphy.gif" align="right" height="250" width="250">
+
 Permite cambiar el flujo de ejecución de un programa o *script* al tomar decisiones con base en lo que se conoce como condición. La estructura generalde un if es la siguiente:
 
 ```python
@@ -48,6 +50,8 @@ El número es cero.
 
 ### 2. Estructura de repetición `while`
 
+<img src="https://static.wikia.nocookie.net/f9ce2f43-5303-4810-b482-b1336c41f525" align="right" width="250" height="250">
+
 Ejecuta un fragmento de código en repetidas ocasiones mientras la condición especificada se cumpla. La sintaxis general de un `while` es:
 
 ```python
@@ -87,7 +91,7 @@ Por ejemplo:
 In [1]: for i in range(5): 
    ...:     print("Número {}".format(i)) 
    ...:
-                               
+
 Numero 0
 Numero 1
 Numero 2
