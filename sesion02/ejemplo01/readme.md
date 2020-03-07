@@ -3,43 +3,48 @@
 ### Estructuras de datos
 
 ### Listas
-Son secuencias de datos mutables, accesibles mediante un índice. Pueden contener cualquier tipo de dato, y no necesariamente deben ser del mismo tipo.
 
-`creacion_de_listas.py`
+<img src="https://media.giphy.com/media/B7o99rIuystY4/giphy.gif" align="right" width="300" height="300">
+
+Son estructuras de datos mutables, el acceso a sus elementos puede lograrse mediante un índice. Pueden contener cualquier tipo de dato, y no necesariamente deben ser del mismo tipo, es decir son *heterogéneas*.
+
 ```python 
-n [1]: # Creando una lista
+In [1]: l1 = []
 
-In [2]: l1 = []
+In [2]: l2 = list()
 
-In [3]: l2 = list()
+In [3]: l1 == l2
+Out[3]: True
 
-In [4]: l1 == l2 #Ambas formas son validas
-Out[4]: True
+In [4]: l2 = [1, 2, 3, 4, 5]
 
-In [5]: # Creando una lista con enteros
+In [5]: l3 = [1.2, 3.5, 6.5, 0.7, 4.6]
 
-In [6]: l2 = [1, 2, 3, 4, 5]
+In [6: l4 = ["a", "agg", "Hola Lista"]
 
-In [7]: # Creando una lista con floats
+In [7]: l5 = [10, 5.0, "Doscientos"]
 
-In [8]: l3 = [1.2, 3.5, 6.5, 0.7, 4.6]
-
-In [9]: # Creando una lista con strings
-
-In [10]: l4 = ["a", "agg", "Hola Lista"]
-
-In [11]: # Lista con productos mixtos
-
-In [12]: l5 = [10, 5.0, "Doscientos"]
-
-In [13]: type(l5)
-Out[13]: list
+In [8]: type(l5)
+Out[8]: list
 ```
 
-`listas-de-enteros.py`
-Crear e imprimir una lista con números enteros, comnezando con 0, y finalizando con un número entero definido por el usuario.
+Podemos generar un *script* que genere e imprima una lista con números enteros, comnezando con 0, y finalizando con un número entero definido por el usuario.
 
-```
+```python
+n = input("Tamaño de la lista: ")
+
+if not n.isdigit():
+    print("Número invalido")
+
+else:
+    n = int(n)
+
+    lista = list(range(n))
+    for i in lista:
+        print(i)
+```        
+
+```bash
 $ python3 lista-de-enteros.py
 Tamaño de la lista: 10
 0
@@ -54,6 +59,6 @@ Tamaño de la lista: 10
 9
 ```
 
-Este script, que parece inofensivo a simple vista, puede colapsar un equipo! Si la lista es demasiado grande, puede llenar la memoria RAM.
+Este script, que parece inofensivo a simple vista, ¡puede colapsar tu equipo! Si la lista es demasiado grande, puede llenar la memoria RAM.
 
 [Volver](../readme.md)
