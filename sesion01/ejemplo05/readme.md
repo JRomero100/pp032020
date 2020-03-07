@@ -86,7 +86,8 @@ Por ejemplo:
 ```python
 In [1]: for i in range(5): 
    ...:     print("Número {}".format(i)) 
-   ...:                                                                                                                                                        
+   ...:
+                               
 Numero 0
 Numero 1
 Numero 2
