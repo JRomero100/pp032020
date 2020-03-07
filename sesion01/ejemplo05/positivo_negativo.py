@@ -1,9 +1,9 @@
-numero = 0
+numero = input('Introduce un número: ')
 
-if numero == 0: 
-    print("Este numero es 0") 
-elif numero > 0: 
-    print("Este numero es positivo") 
-else: 
-    print("Este numero es negativo") 
+if int(numero) == 0:
+   print("El número es cero.")
+elif int(numero) > 0:
+   print("El número es positivo.")
+else:
+   print("El número es negativo.")
                        

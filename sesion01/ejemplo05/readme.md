@@ -1,22 +1,49 @@
 ## Estruturas de control
 
-### If, elif, else
-Permite ejecutar cierta porción de código, si es que una condición se evalúa como verdadero.
-Elif, permite probar otra condición, en caso de no cumplirse la anterior. Else, ejecuta una pieza de código, si ninguna condición se cumplió.
+### Estructura de decisión `if`
 
-`positivo_negativo.py`
+Permite cambiar el flujo de ejecución de un programa o *script* al tomar decisiones con base en lo que se conoce como condición. La estructura generalde un if es la siguiente:
+
 ```python
-In [1]: numero = 0                                                                                                                                                                           
+if condición1:
+   ...
+elif condición2:
+   ...
+else:
+   ...
+```
 
-In [2]: if numero == 0: 
-   ...:     print("Este numero es 0") 
-   ...: elif numero > 0: 
-   ...:     print("Este numero es positivo") 
-   ...: else: 
-   ...:     print("Este numero es negativo") 
-   ...:                                                                                                                                                                                      
-Este numero es 0
+La condición que recibe el `if` debe ser un valor booleano, en ese sentido podemos usar los operadores lógicos o lo que se conoce como *operadores relacionales* para números:
 
+| Operador | Significado       |
+| -------- | ----------------- |
+| `<`      | Menor que         |
+| `<=`     | Menor o igual que |
+| `>`      | Mayor que         |
+| `>=`     | Mayor o igual que |
+| `==`     | Igual que         |
+| `!=`     | Distinto de       |
+
+De esta forma si se cumple la condición, evaluamos el código que se encuentra inmediatamente después indentado. Después con `elif` podemos probar otra condición en caso de no cumplirse la anterior, esta condición puede omitirse y puede haber más de un `elif` a la vez. Si ninguna condición se cumple, se ejecuta el cuerpo del `else`. Por ejemplo:
+
+*Script*: `positivo_negativo.py`
+
+```python
+numero = input('Introduce un número: ')
+
+if int(numero) == 0:
+   print("El número es cero.")
+elif int(numero) > 0:
+   print("El número es positivo.")
+else:
+   print("El número es negativo.")
+```
+
+*Ejemplo de ejecución*
+
+```bash
+Introduce un número: 0
+El número es cero.
 ```
 
 ### While
