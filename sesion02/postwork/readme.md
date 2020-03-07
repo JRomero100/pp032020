@@ -18,3 +18,6 @@ Un objeto tiene muchos atributos? -- Puedes usar un diccionario.
 * Utiliza funciones para evitar repetir piezas de código, o las que creas que podrían ser utilizadas de nuevo mas adelante. Agrega parámetros a ellas como sea necesario.
 * Acomoda algunos datos si es necesario, mediante la función sort() de las listas. Esto evitará que tengas que hacerlo manualmente.
 * Empuja a Github los cambios para revisarlos la próxima sesión.
+
+
+[Volver](../readme.md)

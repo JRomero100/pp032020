@@ -55,3 +55,5 @@ Tamaño de la lista: 10
 ```
 
 Este script, que parece inofensivo a simple vista, puede colapsar un equipo! Si la lista es demasiado grande, puede llenar la memoria RAM.
+
+[Volver](../readme.md)
