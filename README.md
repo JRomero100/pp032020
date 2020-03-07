@@ -1,10 +1,10 @@
 ## Programación con Python
 
-<img src="bedu.jpg" align="right" height="150" width="150">
+<img src="imagenes/bedu.jpg" align="right" height="150" width="150">
 
 ### Información General
 
-<img src="image.gif" align="right" height="100" width="100" hspace="10">
+<img src="imagenes/image.gif" align="right" height="100" width="100" hspace="10">
 
 **Grupo PTBT102019**
 
