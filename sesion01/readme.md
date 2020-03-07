@@ -1,12 +1,14 @@
-# Python Fundamentals
+## Sesión 1: Python Fundamentals
 
-## Objetivos
+<img src="../imagenes/pizarron.png" align="right" height="100" width="100" hspace="10">
 
-* Conocer la sintaxis básica de Python.
-* Utilizar variables y tipos de datos; operadores lógicos y condiciones, así como ciclos de control.
-* Crear los primeros programas en Python.
+### Objetivos
 
-## Organización de la sesión
+* Conocer la sintaxis básica de __Python__.
+* Utilizar variables y tipos de datos; operadores lógicos y condiciones, así como estructuras de control.
+* Crear los primeros programas en __Python__.
+
+### Organización de la sesión
 
 * Presentación e instalación
     * [Ejemplo 01](ejemplo01)
@@ -25,10 +27,9 @@
 * Reto final
     * [Reto 06](reto06)
 
-## Postwork
+### Postwork
 
-* Lineamientos y consejos para comenzar su proyecto con Python
-   *  [Postwork](postwork)
+* [Especificación](postwork)
 
 
 
