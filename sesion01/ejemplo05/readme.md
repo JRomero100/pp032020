@@ -1,108 +1,59 @@
 ## Estruturas de control
 
-### 1. Estructura de decisión `if`
+### If, elif, else
+Permite ejecutar cierta porción de código, si es que una condición se evalúa como verdadero.
+Elif, permite probar otra condición, en caso de no cumplirse la anterior. Else, ejecuta una pieza de código, si ninguna condición se cumplió.
 
-<img src="https://media3.giphy.com/media/8acGIeFnqLA7S/giphy.gif" align="right" height="250" width="250">
-
-Permite cambiar el flujo de ejecución de un programa o *script* al tomar decisiones con base en lo que se conoce como condición. La estructura generalde un if es la siguiente:
-
+`positivo_negativo.py`
 ```python
-if condición1:
-   ...
-elif condición2:
-   ...
-else:
-   ...
+In [1]: numero = 0                                                                                                                                                                           
+
+In [2]: if numero == 0: 
+   ...:     print("Este numero es 0") 
+   ...: elif numero > 0: 
+   ...:     print("Este numero es positivo") 
+   ...: else: 
+   ...:     print("Este numero es negativo") 
+   ...:                                                                                                                                                                                      
+Este numero es 0
+
 ```
 
-La condición que recibe el `if` debe ser un valor booleano, en ese sentido podemos usar los operadores lógicos o lo que se conoce como *operadores relacionales* para números:
-
-| Operador | Significado       |
-| -------- | ----------------- |
-| `<`      | Menor que         |
-| `<=`     | Menor o igual que |
-| `>`      | Mayor que         |
-| `>=`     | Mayor o igual que |
-| `==`     | Igual que         |
-| `!=`     | Distinto de       |
-
-De esta forma si se cumple la condición, evaluamos el código que se encuentra inmediatamente después indentado. Después con `elif` podemos probar otra condición en caso de no cumplirse la anterior, esta condición puede omitirse y puede haber más de un `elif` a la vez. Si ninguna condición se cumple, se ejecuta el cuerpo del `else`. Por ejemplo:
-
-*Script*: `positivo_negativo.py`
-
-```python
-numero = input('Introduce un número: ')
-
-if int(numero) == 0:
-   print("El número es cero.")
-elif int(numero) > 0:
-   print("El número es positivo.")
-else:
-   print("El número es negativo.")
+### While
+Ejecuta una pieza de código, en ciclos, hasta que la condición indicada se deje de cumplir.
+`while_5.py`
 ```
-
-*Ejemplo de ejecución*
-
-```bash
-Introduce un número: 0
-El número es cero.
-```
-
-### 2. Estructura de repetición `while`
-
-<img src="https://static.wikia.nocookie.net/f9ce2f43-5303-4810-b482-b1336c41f525" align="right" width="250" height="250">
-
-Ejecuta un fragmento de código en repetidas ocasiones mientras la condición especificada se cumpla. La sintaxis general de un `while` es:
-
-```python
-while condición:
-   ...
-```
-
-Por ejemplo, queremos imprimir los primeros 5 números naturales.
-
-```python
-In [1]: n = 0
-In [2]: while n < 5: 
-   ...:     print("Número {}".format(n))
-   ...:     n = n + 1
-
+In [5]: while n<5: 
+   ...:     print("Numero {}".format(n)) 
+   ...:     n = n + 1 
+   ...:                                                                                                                                                                                      
 Numero 0
 Numero 1
 Numero 2
 Numero 3
 Numero 4
+
+`for_5.py`
 ```
-
-### 3. Estructura de repetición `for`
-
-Al igual que `while` realiza iteraciones, sin embargo en lugar de recibir una condición utiliza un conjunto de elementos, sobre los cuales iterar. La forma más sencilla de usar for es con la función `range` que genera un conjunto de elementos del 0 al número indicado.
-
-La estructura de un `for` es:
-
-```python
-for i in elementos:
-   ...
+### For
+Itera sobre cada uno de los elementos que se le indiquen.
 ```
-
-Por ejemplo:
-
-```python
-In [1]: for i in range(5): 
-   ...:     print("Número {}".format(i)) 
-   ...:
-
+In [7]: for i in range(5): 
+   ...:     print("Numero {}".format(i)) 
+   ...:      
+                                                                                                                                                        
 Numero 0
 Numero 1
 Numero 2
 Numero 3
 Numero 4
+
 ```
-### Ejemplo: Pares y nones
+#### Ejemplo: par_non.py
 De una lista de 10 numeros, imprimir en pantalla par o non, dependiendo de si son divisibles entre 2 o no.
 
 ```python
-In [1]: for i in range(11): 
+In [8]: for i in range(11): 
    ...:     if i % 2 == 0: 
    ...:         print("Par") 
    ...:     else: 
@@ -119,6 +70,5 @@ Par
 Non
 Par
 Non
-```
 
-[Volver](../readme.md)
+```

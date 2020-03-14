@@ -12,5 +12,3 @@ wDxIg9BJ
 8U3lNI2E
 0QiZqQRY
 ```
-
-[Volver](../readme.md)

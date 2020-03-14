@@ -82,6 +82,3 @@ Out[12]: {4, 5}
 In [13]: s1.intersection(s2)  # Interseccion
 Out[13]: {4, 5}
 ```
-
-
-[Volver](../readme.md)

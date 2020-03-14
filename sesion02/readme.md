@@ -1,14 +1,12 @@
-##  Estructuras de datos y funciones
+#  Estructuras de datos y funciones
 
-<img src="../imagenes/pizarron.png" align="right" height="100" width="100" hspace="10">
-
-### Objetivos
+## Objetivos
 
 * Conocer el uso y sintaxis de las estructuras para almacenar y acceder a elementos.
 * Aprender a utilizar funciones en Python.
 * Conocer las bases de la progración estructurada y el concepto DRY (*Don't repeat yourself*)
 
-### Contenido
+## Contenido
 
 * Listas
   * [Ejemplo 01](ejemplo01/readme.md)

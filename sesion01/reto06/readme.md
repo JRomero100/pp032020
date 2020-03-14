@@ -1,12 +1,7 @@
-## Actividad final: Reservaciones de nuevo
+## Actividad final: reservacion_apartado.py
 
-Modifica el *script* de *Bedu Travels* agregando dos nuevas columnas llamadas, cantidad y subtotal. Adicionalmente, pregunta al usuario si desea conocer el precio por apartar el viaje.
-
-- Si la respuesta es `s`, `S`, `SI`, `si`, deberá mostrar el costo del apartado justo después del total. Este equivale a un 10% del costo total.
-
-- Si escribe `n`, `N`, `NO`, `no`, deberá dejar el ticket si costo de apartado.
-
-- En caso de ingresar otra respuesta, indicar que ocurrió un error.
+* Modificar el script lista_reservacion.py, para preguntar al usuario si quiere conocer o no el monto de apartado, una nueva columna de cantidad, subtotal (cantaidad * precio), y el costo del apartado antes del total, equivalente a un 10% del costo total. 
+* Si escribe S, SI, si o sI, mostrar después del total, el precio del apartado.
 
 ```
 Quieres conocer el monto de apartado (s/n)? Si
@@ -24,5 +19,3 @@ Alimentos y bebidas           |        7 |    1200.00 |   1200.00
                                             Apartado |    1595.09
 
 ```
-
-[Volver](../readme.md)
