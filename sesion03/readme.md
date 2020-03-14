@@ -8,7 +8,7 @@
 
 ## Contenido
 
-* Librería estándar
+* Biblioteca estándar
   * [Ejemplo 01](ejemplo01/readme.md)
   * [Reto 01](reto01/readme.md)
   * [Ejemplo 02](ejemplo02/readme.md)
