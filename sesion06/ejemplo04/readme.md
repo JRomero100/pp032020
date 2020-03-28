@@ -1,9 +1,9 @@
 ## Ejemplo 04
 ## Consumiendo información
 
-Un API es una manera de interactuar con el servicio de un tercero, del cual normalmente se puede obtener, editar o agregar información. Las APIs pueden extender la funcionalidad de un programa. El término se asocia con APIs web, pero también existen para librerías o hardware.
+Un API es una manera de interactuar con el servicio de un tercero, del cual normalmente se puede obtener, editar o agregar información. Las APIs pueden extender la funcionalidad de un programa. El término se asocia con APIs web, pero también existen para bibliotecas o hardware.
 
-Para obtener información de otras páginas o APIs, Python cuenta con la librería Requests, con la cual se puede hacer peticiones de una manera sencilla y rápida.
+Para obtener información de otras páginas o APIs, Python cuenta con la biblioteca Requests, con la cual se puede hacer peticiones de una manera sencilla y rápida.
 
 Para su instalación:
 `pip install requests`
