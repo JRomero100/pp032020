@@ -6,7 +6,7 @@ Una de los formatos habituales de un API es recibir y enviar información en for
 
 `json_bottle.py`
 
-### Ficheros
+### Archivos
 
 Para permitir a un usuario descargar archivos, se pueden enviar archivos en Bottle.py de manera similar a como se leen archivos en Python. Cualquier clase que tenga la función `read()`, puede enviarse como archivo.
 
