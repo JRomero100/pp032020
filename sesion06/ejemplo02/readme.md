@@ -1,13 +1,15 @@
 ## Ejemplo 02
 ## Bottle.py
 
-Bottle.py es un micro framework para crear aplicaciones web de forma sencilla, no tiene dependencias fuera de la librería estándar de Python y debido a que todo el framework vive en un solo script, se puede considerar portable.
+`Bottle.py` es un micro framework para crear aplicaciones web de forma sencilla, no tiene dependencias fuera de la biblioteca estándar de __Python__ y debido a que todo el *framework* vive en un solo script, se puede considerar portable.
 
 ### Instalación
 
 Para su instalación, se puede descargar directamente de su sitio [bottle.py](https://bottlepy.org/bottle.py),o mediante pip:
 
-`pip3 install bottle`
+```
+pip3 install bottle
+```
 
 Como es portable, si se descargan se puede colocar en la misma carpeta que se encuentre el archivo/proyecto a correr.
 
