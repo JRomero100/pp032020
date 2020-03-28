@@ -23,3 +23,5 @@ El módulo de __Programación con Python__ forma parte del programa Fullstack en
 - [Sesión 4: Manipulación de archivos, JSON, CSV y excepciones](sesion04/readme.md)
 - [Sesión 5: Programación Orientada a Objetos](sesion05/readme.md)
 - [Sesión 6: Servidores web y APIs](sesion06/readme.md)
+- [Sesión 7: Web Scraping](sesion07/readme.md)
+- [Sesión 8: Computación numérica o científica](sesion08/readme.md)
